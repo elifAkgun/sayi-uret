@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 public class NumberGuess  {
     private static final Logger log = LoggerFactory.getLogger(NumberGuess.class);
 
-    @EventListener
-    public void start(ContextRefreshedEvent contextRefreshedEvent) {
+    @EventListener(ContextRefreshedEvent.class)
+    public void start() {
         log.info("start()--> Container ready for use...");
     }
 }
