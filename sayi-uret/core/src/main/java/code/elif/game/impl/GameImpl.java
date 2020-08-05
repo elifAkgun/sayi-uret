@@ -1,7 +1,7 @@
-package code.elif.impl;
+package code.elif.game.impl;
 
-import code.elif.Game;
-import code.elif.NumberGenerator;
+import code.elif.game.Game;
+import code.elif.game.NumberGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

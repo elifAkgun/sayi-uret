@@ -1,3 +1,7 @@
-Main.class
-NumberGenerator.class
-NumberGeneratorImpl.class
+code/elif/game/MessageGenerator.class
+code/elif/AppConfig.class
+code/elif/game/impl/GameImpl.class
+code/elif/game/impl/NumberGeneratorImpl.class
+code/elif/game/Game.class
+code/elif/game/NumberGenerator.class
+code/elif/game/impl/MessageGeneratorImpl.class

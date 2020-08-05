@@ -1,4 +1,4 @@
-package code.elif;
+package code.elif.game;
 
 public interface Game {
 

@@ -1,7 +1,6 @@
-package code.elif.impl;
+package code.elif.game.impl;
 
-import code.elif.NumberGenerator;
-import org.springframework.beans.factory.BeanCurrentlyInCreationException;
+import code.elif.game.NumberGenerator;
 
 import java.util.Random;
 
