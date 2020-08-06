@@ -1,4 +1,4 @@
-package code.elif.game.config;
+/*package code.elif.game.config;
 
 import code.elif.game.Game;
 import code.elif.game.MessageGenerator;
@@ -17,3 +17,4 @@ import org.springframework.context.annotation.Import;
 public class AppConfig {
 
 }
+*/

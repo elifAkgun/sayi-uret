@@ -1,9 +1,9 @@
 package code.elif.console;
 
-import code.elif.game.config.AppConfig;
 import code.elif.game.Game;
 import code.elif.game.MessageGenerator;
 import code.elif.game.NumberGenerator;
+import code.elif.game.config.GameConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -19,32 +19,7 @@ public class Main {
 
         // create context (container)
         ConfigurableApplicationContext context
-                = new AnnotationConfigApplicationContext(AppConfig.class);
-
-
-        //get numbergenerator bean from the context
-        NumberGenerator numberGenerator
-                = context.getBean("numberGenerator", NumberGenerator.class);
-
-        // call method next() to get a random number
-        int number = numberGenerator.next();
-
-        // log generated number
-        log.info("number = {}", number);
-
-        //get game bean from the context
-        Game game
-                = context.getBean("game", Game.class);
-
-        MessageGenerator messageGenerator
-                = context.getBean("message", MessageGenerator.class);
-
-        String mainMessage = messageGenerator.getMainMessage();
-
-        log.info(mainMessage);
-        String resultMessage = messageGenerator.getResultMessage();
-
-        log.info(resultMessage);
+                = new AnnotationConfigApplicationContext(GameConfig.class);
 
         // close context (container)
         context.close();

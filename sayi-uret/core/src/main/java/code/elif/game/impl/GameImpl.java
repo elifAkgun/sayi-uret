@@ -17,12 +17,17 @@ public class GameImpl implements Game {
     private static final Logger log = LoggerFactory.getLogger(GameImpl.class);
 
     // == fields ==
-    @Autowired
+
     private NumberGenerator numberGenerator;
 
-    @Autowired
-    @GuessCount
     private int guessCount;
+
+    @Autowired
+    public GameImpl(NumberGenerator numberGenerator,
+                    @GuessCount int guessCount) {
+        this.numberGenerator = numberGenerator;
+        this.guessCount = guessCount;
+    }
 
     private int number;
     private int guess;

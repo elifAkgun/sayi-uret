@@ -17,11 +17,15 @@ import java.util.Scanner;
 public class NumberGuess {
     private static final Logger log = LoggerFactory.getLogger(NumberGuess.class);
 
-    @Autowired
     private Game game;
 
-    @Autowired
     private MessageGenerator messageGenerator;
+
+    @Autowired
+    public NumberGuess(Game game, MessageGenerator messageGenerator) {
+        this.game = game;
+        this.messageGenerator = messageGenerator;
+    }
 
     @EventListener(ContextRefreshedEvent.class)
     public void start() {
