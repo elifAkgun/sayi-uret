@@ -1,4 +1,4 @@
-package code.elif;
+package code.elif.game.config;
 
 import code.elif.game.Game;
 import code.elif.game.MessageGenerator;

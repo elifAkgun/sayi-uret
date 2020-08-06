@@ -1,6 +1,6 @@
 package code.elif.console;
 
-import code.elif.AppConfig;
+import code.elif.game.config.AppConfig;
 import code.elif.game.Game;
 import code.elif.game.MessageGenerator;
 import code.elif.game.NumberGenerator;
