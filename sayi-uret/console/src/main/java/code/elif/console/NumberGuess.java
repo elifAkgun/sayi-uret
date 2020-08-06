@@ -3,6 +3,7 @@ package code.elif.console;
 import code.elif.game.Game;
 import code.elif.game.MessageGenerator;
 import code.elif.game.impl.MessageGeneratorImpl;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +15,8 @@ import org.springframework.stereotype.Component;
 import java.util.Scanner;
 
 @Component
+@Slf4j
 public class NumberGuess {
-    private static final Logger log = LoggerFactory.getLogger(NumberGuess.class);
 
     private Game game;
 
