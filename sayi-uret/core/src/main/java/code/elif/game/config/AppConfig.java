@@ -24,7 +24,6 @@ public class AppConfig {
     @Bean("game")
     public Game game() {
         return new GameImpl();
-        
     }
 
     @Bean("message")
