@@ -16,18 +16,4 @@ import org.springframework.context.annotation.Import;
 @ComponentScan(basePackages = "code.elif")
 public class AppConfig {
 
-    @Bean("numberGenerator")
-    public NumberGenerator numberGenerator() {
-        return new NumberGeneratorImpl();
-    }
-
-    @Bean("game")
-    public Game game() {
-        return new GameImpl();
-    }
-
-    @Bean("message")
-    public MessageGenerator messageGenerator() {
-        return new MessageGeneratorImpl();
-    }
 }

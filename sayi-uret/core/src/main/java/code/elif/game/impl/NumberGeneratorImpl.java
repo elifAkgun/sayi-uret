@@ -4,9 +4,11 @@ import code.elif.game.NumberGenerator;
 import code.elif.game.qualifier.MaxNumber;
 import code.elif.game.qualifier.MinNumber;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
+@Component
 public class NumberGeneratorImpl implements NumberGenerator {
 
     // == fields ==
