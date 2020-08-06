@@ -12,6 +12,8 @@ public interface Game {
 
     int getBiggest();
 
+    int getGuessCount();
+
     int getRemainingGuesses();
 
     void reset();
@@ -23,6 +25,7 @@ public interface Game {
     boolean isGameWon();
 
     boolean isGameLost();
+
 
 
 }
