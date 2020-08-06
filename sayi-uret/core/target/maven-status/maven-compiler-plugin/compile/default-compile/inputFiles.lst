@@ -1,7 +1,8 @@
+/Users/elifakgun/git/sayi-uret/sayi-uret/core/src/main/java/code/elif/game/config/AppConfig.java
 /Users/elifakgun/git/sayi-uret/sayi-uret/core/src/main/java/code/elif/game/MessageGenerator.java
 /Users/elifakgun/git/sayi-uret/sayi-uret/core/src/main/java/code/elif/game/impl/NumberGeneratorImpl.java
 /Users/elifakgun/git/sayi-uret/sayi-uret/core/src/main/java/code/elif/game/impl/MessageGeneratorImpl.java
-/Users/elifakgun/git/sayi-uret/sayi-uret/core/src/main/java/code/elif/AppConfig.java
+/Users/elifakgun/git/sayi-uret/sayi-uret/core/src/main/java/code/elif/game/config/GameConfig.java
 /Users/elifakgun/git/sayi-uret/sayi-uret/core/src/main/java/code/elif/game/impl/GameImpl.java
 /Users/elifakgun/git/sayi-uret/sayi-uret/core/src/main/java/code/elif/game/Game.java
 /Users/elifakgun/git/sayi-uret/sayi-uret/core/src/main/java/code/elif/game/NumberGenerator.java

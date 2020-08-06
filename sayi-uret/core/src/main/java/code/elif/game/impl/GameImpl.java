@@ -2,6 +2,7 @@ package code.elif.game.impl;
 
 import code.elif.game.Game;
 import code.elif.game.NumberGenerator;
+import code.elif.game.qualifier.GuessCount;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,9 @@ public class GameImpl implements Game {
     @Autowired
     private NumberGenerator numberGenerator;
 
-    private int guessCount = 10;
+    @Autowired
+    @GuessCount
+    private int guessCount;
     private int number;
     private int guess;
     private int smallest;
