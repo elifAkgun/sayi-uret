@@ -1,0 +1,11 @@
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/Game.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/MessageGenerator.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/qualifier/GuessCount.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/impl/GameImpl.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/impl/NumberGeneratorImpl.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/config/GameConfig.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/config/AppConfig.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/qualifier/MinNumber.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/qualifier/MaxNumber.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/impl/MessageGeneratorImpl.java
+/Users/elifakgun/git/sayi-uret/core/src/main/java/code/elif/game/NumberGenerator.java
