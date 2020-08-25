@@ -1,14 +1,13 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="~{fragments/head:: headFragment}">
-    <meta charset="UTF-8">
-    <title>Guess the number game</title>
+<head id="headId">
+
 </head>
 <body>
 <div align="center">
-    <h1>Welcome to the number game</h1>
-    <a th:text="Play" th:href="@{__${T(code.elif.util.GameMappings).PLAY}__}"></a>
-    <footer th:replace="~{fragments/footer::footerFragment}"></footer>
+    <h1 id="game-title">Welcome to the number game</h1>
+    <a id="play"></a>
+    <footer id="footer"></footer>
 </div>
 
 </body>

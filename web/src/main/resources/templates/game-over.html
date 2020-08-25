@@ -1,18 +1,17 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="~{fragments/head:: headFragment}">
-    <meta charset="UTF-8">
-    <title>Guess the number game</title>
+<head id="headId">
+
 </head>
 <body>
 <div align="center">
-    <h1>Game Over</h1>
-    <h3 th:text="${__${T(code.elif.util.AttributeNames).RESULT_MESSAGE}__}"></h3>
+    <h1 id="gameOver">Game Over</h1>
+    <h3 id="resultMessage"></h3>
 
-    <p><a th:href="@{__${T(code.elif.util.GameMappings).RESET}__}">Click to Play Again!</a></p>
-    <p><a th:href="@{__${T(code.elif.util.GameMappings).HOME}__}">Home</a>
+    <p><a id="reset">Click to Play Again!</a></p>
+    <p><a id="home">Home</a>
     </p>
-    <footer th:replace="~{fragments/footer::footerFragment}"></footer>
+    <footer id="footer"></footer>
 </div>
 </body>
 </html>
